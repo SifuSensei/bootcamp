@@ -1,0 +1,52 @@
+body {
+    background-color: blanchedalmond;
+    
+}
+ .container {
+    margin-top: 10em;
+ }
+table {
+    margin: 0 auto;
+}
+table, td, th {
+    border: 1px solid black;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+li {
+    padding-right: 1em;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: beige;
+    border-radius: 2em;
+    padding: 0.5em;
+}
+
+h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding: 1em;
+    text-align: center;
+}
+h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+/* adopt page */
+.about {
+ margin-top: 10em;
+
+}
+   
+button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}

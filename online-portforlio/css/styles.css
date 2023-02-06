@@ -1,0 +1,93 @@
+.container {
+  margin: 0 auto;
+  width: 80em;
+  line-height: 1.5;
+}
+body {
+  background-image: linear-gradient(95deg, #611d61, #421642, #37809c  );
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(245, 245, 194);
+  height: 100vh;
+}
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: rgb(240, 151, 151);
+}
+h1 {
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2.5em;
+  font-weight: 600;
+ 
+}
+.heading a {
+  text-decoration: none;
+}
+
+header {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects a {
+  border: 1px solid black;
+  border-radius: 1em;
+  padding: 1em;
+  background-color: orangered;
+  text-decoration: none;
+  color: beige;
+}
+.main-con h2,
+.main-con p,
+.bu {
+  padding: 1em;
+  text-align: center;
+}
+
+.bu {
+  text-align: center;
+}
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3em;
+}
+
+.projects {
+  display: flex;
+  margin: 1em;
+}
+
+.webform {
+	margin-top: 5em;
+}
+input[type="text"] {
+	height:2em;
+	border-radius: 2em;
+	background-color: lightblue;
+}
+
+label{
+margin: 1em;
+padding: 1em;
+}
+footer {
+	margin-top: 10em;
+	text-align: center;
+}
+.cont-pics {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1em;
+}
+.succ, .humbl {
+  padding: 1em;
+}
+.cont-pics img {
+  width: 50em;
+}
+
